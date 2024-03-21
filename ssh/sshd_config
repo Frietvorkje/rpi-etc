@@ -11,6 +11,8 @@ Include /etc/ssh/sshd_config.d/*.conf
 # possible, but leave them commented.  Uncommented options override the
 # default value.
 
+Allow Users opsstudent
+
 Port 32123
 #AddressFamily any
 #ListenAddress 0.0.0.0
